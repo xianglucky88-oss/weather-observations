@@ -1,0 +1,55 @@
+{
+  "start_url": "fixture://incremental/initial",
+  "pages": [
+    {
+      "url": "fixture://incremental/initial",
+      "cursor": null,
+      "next_cursor": "cursor-b",
+      "next_url": "fixture://incremental/second",
+      "records": [
+        {
+          "source": "station-feed",
+          "observed_at": "2026-11-02T00:00:00Z",
+          "payload": {
+            "station_id": "W-1",
+            "metric": "temperature",
+            "source_observed_at": "2026-11-02T00:00:00Z",
+            "value": 18.4,
+            "unit": "C",
+            "quality": "ok"
+          }
+        },
+        {
+          "source": "station-feed",
+          "observed_at": "2026-11-02T00:05:00Z",
+          "payload": {
+            "station_id": "W-2",
+            "metric": "wind_speed",
+            "source_observed_at": "2026-11-02T00:05:00Z",
+            "value": 3.9,
+            "unit": "m/s",
+            "quality": "ok"
+          }
+        }
+      ]
+    },
+    {
+      "url": "fixture://incremental/second",
+      "cursor": "cursor-b",
+      "records": [
+        {
+          "source": "station-feed",
+          "observed_at": "2026-11-02T00:10:00Z",
+          "payload": {
+            "station_id": "W-1",
+            "metric": "temperature",
+            "source_observed_at": "2026-11-02T00:10:00Z",
+            "value": 18.6,
+            "unit": "C",
+            "quality": "ok"
+          }
+        }
+      ]
+    }
+  ]
+}

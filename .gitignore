@@ -8,6 +8,7 @@ __pycache__/
 *.sqlite
 *.db
 raw/
+*-raw/
 .env
 .env.*
 !.env.example
