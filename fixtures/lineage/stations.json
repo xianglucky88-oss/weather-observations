@@ -1,0 +1,14 @@
+[
+  {
+    "canonical_id": "ST-CENTRAL",
+    "display_name": "Central Park Weather Station"
+  },
+  {
+    "canonical_id": "ST-RIVERSIDE",
+    "display_name": "Central Park Weather Station"
+  },
+  {
+    "canonical_id": "ST-HARBOR",
+    "display_name": "Harbor Weather Station"
+  }
+]

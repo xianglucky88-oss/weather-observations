@@ -1,0 +1,43 @@
+[
+  {
+    "rule_id": "R-001",
+    "source": "station-feed",
+    "provider_id": "W-1",
+    "canonical_id": "ST-CENTRAL",
+    "kind": "alias",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": "2026-06-01T00:00:00Z",
+    "basis": "administrative rename notice A-2026-01"
+  },
+  {
+    "rule_id": "R-002",
+    "source": "station-feed",
+    "provider_id": "W-1A",
+    "canonical_id": "ST-CENTRAL",
+    "kind": "succession",
+    "effective_from": "2026-06-01T00:00:00Z",
+    "effective_to": "2026-10-01T00:00:00Z",
+    "basis": "equipment replacement ticket EQ-44"
+  },
+  {
+    "rule_id": "R-003",
+    "source": "station-feed",
+    "provider_id": "W-1B",
+    "canonical_id": "ST-CENTRAL",
+    "kind": "relocation",
+    "effective_from": "2026-10-01T00:00:00Z",
+    "effective_to": null,
+    "location_name": "North Gate",
+    "basis": "relocation permit RL-09"
+  },
+  {
+    "rule_id": "R-004",
+    "source": "station-feed",
+    "provider_id": "W-9",
+    "canonical_id": "ST-RIVERSIDE",
+    "kind": "alias",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "basis": "riverside registry entry RR-12"
+  }
+]

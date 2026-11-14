@@ -57,5 +57,16 @@ class ObservationStore:
             "rejected": self.conn.execute("SELECT COUNT(*) FROM rejected_records").fetchone()[0],
         }
 
+    def fetch_observation(self, key: tuple[str, str, str]) -> dict | None:
+        row = self.conn.execute(
+            "SELECT source, record_key, observed_at, payload_json, raw_hash, first_seen_at "
+            "FROM observations WHERE source = ? AND record_key = ? AND observed_at = ?",
+            key,
+        ).fetchone()
+        if row is None:
+            return None
+        return dict(zip(("source", "record_key", "observed_at", "payload_json",
+                         "raw_hash", "first_seen_at"), row))
+
     def close(self) -> None:
         self.conn.close()

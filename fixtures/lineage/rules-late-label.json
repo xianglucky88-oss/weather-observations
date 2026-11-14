@@ -1,0 +1,12 @@
+[
+  {
+    "rule_id": "R-005",
+    "source": "station-feed",
+    "provider_id": "W-1C",
+    "canonical_id": "ST-CENTRAL",
+    "kind": "alias",
+    "effective_from": "2026-11-01T00:00:00Z",
+    "effective_to": null,
+    "basis": "post-relocation label registration RR-20"
+  }
+]

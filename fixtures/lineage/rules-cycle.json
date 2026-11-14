@@ -1,0 +1,32 @@
+[
+  {
+    "rule_id": "C-001",
+    "source": "station-feed",
+    "provider_id": "X-1",
+    "canonical_id": "X-2",
+    "kind": "alias",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "basis": "cyclic declaration 1"
+  },
+  {
+    "rule_id": "C-002",
+    "source": "station-feed",
+    "provider_id": "X-2",
+    "canonical_id": "X-3",
+    "kind": "alias",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "basis": "cyclic declaration 2"
+  },
+  {
+    "rule_id": "C-003",
+    "source": "station-feed",
+    "provider_id": "X-3",
+    "canonical_id": "X-1",
+    "kind": "alias",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "basis": "cyclic declaration 3"
+  }
+]
