@@ -1,0 +1,98 @@
+[
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T10:01:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T10:00:00Z",
+      "value": 10.0,
+      "unit": "C",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T13:01:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T13:00:00Z",
+      "value": 13.0,
+      "unit": "C",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-beta",
+    "observed_at": "2026-11-01T13:20:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T12:30:00Z",
+      "value": 12.5,
+      "unit": "C",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T14:00:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T10:00:00Z",
+      "value": 10.4,
+      "unit": "C",
+      "quality": "corrected"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T14:05:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T08:00:00Z",
+      "value": 8.0,
+      "unit": "C",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T09:01:00Z",
+    "payload": {
+      "station_id": "W-2",
+      "metric": "wind_speed",
+      "source_observed_at": "2026-11-01T09:00:00Z",
+      "value": 3.0,
+      "unit": "m/s",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T11:01:00Z",
+    "payload": {
+      "station_id": "W-2",
+      "metric": "wind_speed",
+      "source_observed_at": "2026-11-01T11:00:00Z",
+      "value": 5.0,
+      "unit": "m/s",
+      "quality": "ok"
+    }
+  },
+  {
+    "source": "feed-alpha",
+    "observed_at": "2026-11-01T10:01:00Z",
+    "payload": {
+      "station_id": "W-1",
+      "metric": "temperature",
+      "source_observed_at": "2026-11-01T10:00:00Z",
+      "value": 10.0,
+      "unit": "C",
+      "quality": "ok"
+    }
+  }
+]
