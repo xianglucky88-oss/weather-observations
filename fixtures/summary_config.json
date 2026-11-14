@@ -1,0 +1,50 @@
+{
+  "stations": [
+    {
+      "station_id": "NYC-1",
+      "timezone": "America/New_York",
+      "metrics": {
+        "temperature": {
+          "kind": "instantaneous",
+          "unit": "C",
+          "expected_interval_seconds": 3600,
+          "min_coverage": 0.9,
+          "key_periods": [],
+          "quality_pass": ["ok"]
+        },
+        "precipitation": {
+          "kind": "cumulative",
+          "unit": "mm",
+          "expected_interval_seconds": 3600,
+          "min_coverage": 1.0,
+          "key_periods": [
+            {"label": "overnight", "start": "00:00", "end": "06:00"}
+          ],
+          "quality_pass": ["ok"]
+        },
+        "wind_speed": {
+          "kind": "extreme",
+          "unit": "m/s",
+          "expected_interval_seconds": 3600,
+          "min_coverage": 0.9,
+          "key_periods": [],
+          "quality_pass": ["ok"]
+        }
+      }
+    },
+    {
+      "station_id": "KIR-1",
+      "timezone": "Pacific/Kiritimati",
+      "metrics": {
+        "temperature": {
+          "kind": "instantaneous",
+          "unit": "C",
+          "expected_interval_seconds": 3600,
+          "min_coverage": 0.9,
+          "key_periods": [],
+          "quality_pass": ["ok"]
+        }
+      }
+    }
+  ]
+}
